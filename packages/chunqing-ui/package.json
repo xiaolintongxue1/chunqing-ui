@@ -22,12 +22,10 @@
         "release": "release-it"
     },
     "release": {
-        "github": {
-            "release": true
-        },
-        "npm": {
-            "publish": true
-        }
+        "plugins": [
+          "@release-it/conventional-changelog",
+          "@release-it/github"
+        ]
     },
     "repository": {
         "type": "git",
