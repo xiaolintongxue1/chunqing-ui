@@ -1,0 +1,13 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  packages/a: {}
+
+  packages/b:
+    dependencies:
+      '@chunqing-ui/a':
+        specifier: workspace:^
+        version: link:../a
