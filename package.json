@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:chunqing": "gulp -f packages/components/scripts/build/index.ts"
+    "build:chunqing": "gulp -f packages/components/scripts/build/index.ts",
+    "publish:chunqing": "gulp -f packages/components/scripts/publish/index.ts"
   },
   "keywords": [],
   "author": "",
