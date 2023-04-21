@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:chunqing": "gulp -f packages/components/scripts/build/index.ts",
-    "publish:chunqing": "gulp -f packages/components/scripts/publish/index.ts"
+    "publish:chunqing": "gulp -f packages/components/scripts/publish/index.ts",
+    "docs:dev": "pnpm run --filter site docs:dev",
+    "docs:build": "pnpm run --filter site docs:build",
+    "docs:deploy": "pnpm run --filter site docs:deploy"
   },
   "keywords": [],
   "author": "",
