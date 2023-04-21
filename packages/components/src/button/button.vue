@@ -4,8 +4,6 @@
   </template>
 
 <script lang="ts" setup>
-  import { ElButton } from "element-plus";
-      
   import "./style/index.less";
   import { computed } from "vue";
   defineOptions({ name: "ea-button" });
