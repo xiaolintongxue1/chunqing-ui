@@ -1,6 +1,6 @@
 {
     "name": "chunqing-ui",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "main": "lib/index.js",
     "module": "es/index.mjs",
     "files": [
@@ -23,8 +23,8 @@
     },
     "release": {
         "plugins": [
-          "@release-it/conventional-changelog",
-          "@release-it/github"
+            "@release-it/conventional-changelog",
+            "@release-it/github"
         ]
     },
     "repository": {
