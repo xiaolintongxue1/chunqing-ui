@@ -1,0 +1,23 @@
+{
+  "hash": "9d069f87",
+  "browserHash": "a33545e1",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../node_modules/.pnpm/vue@3.2.36/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "20f7ce6e",
+      "needsInterop": false
+    },
+    "chunqing-ui": {
+      "src": "../../../../../node_modules/.pnpm/chunqing-ui@1.0.3/node_modules/chunqing-ui/es/index.mjs",
+      "file": "chunqing-ui.js",
+      "fileHash": "049f4856",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-LA5AWHCE": {
+      "file": "chunk-LA5AWHCE.js"
+    }
+  }
+}
