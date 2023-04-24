@@ -1,0 +1,26 @@
+{
+  "name": "create-chunqingcli",
+  "version": "1.0.1",
+  "description": "",
+  "bin": {
+    "chunqingcli": "index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "脚手架"
+  ],
+  "author": "chunqing",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^6.3.0",
+    "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaolintongxue1/chunqing-ui"
+  }
+}
