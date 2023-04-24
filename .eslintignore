@@ -1,0 +1,5 @@
+**.d.ts
+/packages/chunqing-ui
+dist
+node_modules
+gulp-demo

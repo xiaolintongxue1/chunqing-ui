@@ -1,3 +1,3 @@
 export default () => {
-    console.log('我是a包')
-}
+  console.log('我是a包');
+};

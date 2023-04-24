@@ -1,3 +1,3 @@
-import sayHello from '@chunqing-ui/a'
+import sayHello from '@chunqing-ui/a';
 
-sayHello()
+sayHello();
