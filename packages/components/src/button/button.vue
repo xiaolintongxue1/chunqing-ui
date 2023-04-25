@@ -1,12 +1,15 @@
 <template>
-  <!-- <el-button>我是 ElButton</el-button> -->
-  <button class="ea-button" :class="buttonStyle"><slot /></button>
+  <button class="ea-button" :class="buttonStyle">
+    <slot />
+  </button>
 </template>
 
 <script lang="ts" setup>
 import './style/index.less';
 import { computed } from 'vue';
-defineOptions({ name: 'ea-button' });
+import { defineComponent } from 'vue';
+
+defineComponent({ name: 'ea-button' });
 type ButtonProps = {
   type?: string;
 };
